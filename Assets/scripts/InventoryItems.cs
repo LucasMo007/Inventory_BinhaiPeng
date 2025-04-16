@@ -77,7 +77,7 @@ public class InventoryItems : MonoBehaviour
         closedBook.SetActive(true);
         Time.timeScale = 1;
     }
-    IEnumerator Reset()
+    IEnumerator Reset()//
     {
         yield return new WaitForSeconds(0.1f);
         

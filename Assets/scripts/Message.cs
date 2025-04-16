@@ -30,7 +30,7 @@ public class Message : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler
     
     void Start()
     {
-        shopOwnerMessage.text = "hello"  +  Save.pname + "how can I help you";
+        shopOwnerMessage.text = "hello"+ '\u0020' +  Save.pname + '\u0020' + "how can I help you";
     }
 
    public void Message1()
